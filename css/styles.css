@@ -1,0 +1,33 @@
+:root {
+   --primary-color: #2A7AE4;
+   --primary-bg: #F5F5F5;
+   --secondary-bg: #EAF2FD;
+   --text-font: 'Raleway', sans-serif;
+}
+
+body {
+   background: var(--primary-bg);
+   font-family: var(--text-font);
+}
+
+header,
+section,
+footer {
+   padding: 24px 152px;
+}
+
+@media screen and (max-width: 900px) {
+   header,
+   section,
+   footer {
+      padding: 16px 32px;
+   }
+}
+
+@media screen and (max-width: 425px) {
+   header,
+   section,
+   footer {
+      padding: 16px;
+   }
+}
