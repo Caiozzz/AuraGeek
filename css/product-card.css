@@ -1,0 +1,27 @@
+.product-card {
+   display: flex;
+   flex-direction: column;
+   gap: 8px;
+   width: calc(16.6% - 13px);
+}
+
+.product-card > .name {
+   font-size: .875rem;
+   font-weight: 500;
+}
+
+.product-card > .price {
+   font-weight: 700;
+}
+
+@media screen and (max-width: 900px) {
+   .product-card {
+      width: calc(25% - 12px);
+   }
+}
+
+@media screen and (max-width: 425px) {
+   .product-card {
+      width: calc(50% - 8px);
+   }
+}
