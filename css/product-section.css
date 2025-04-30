@@ -17,9 +17,14 @@
    font-size: 2rem;
 }
 
-.product-section .seeAll {
+.product-section .link {
    color: var(--primary-color);
    font-weight: 700;
+}
+
+.product-section .head .link::after {
+   content: '\01F862';
+   margin-left: 12px;
 }
 
 @media screen and (max-width: 900px) {
@@ -39,7 +44,11 @@
       margin: 0;
    }
    
-   .product-section .seeAll {
+   .product-section .link {
       font-size: .875rem;
+   }
+
+   .product-section .head .link::after {
+      margin-left: 8px;
    }
 }
