@@ -1,0 +1,45 @@
+.product-section {
+   margin-top: 40px;
+}
+
+.product-section:last-child {
+   margin-bottom: 40px;
+}
+
+.product-section > .head {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-bottom: 16px;
+}
+
+.product-section .title {
+   font-size: 2rem;
+}
+
+.product-section .seeAll {
+   color: var(--primary-color);
+   font-weight: 700;
+}
+
+@media screen and (max-width: 900px) {
+   
+   .product-section {
+      margin-top: 16px;
+   }
+   
+   .product-section .title {
+      font-size: 1.375rem;
+   }
+}
+
+@media screen and (max-width: 425px) {
+   
+   .product-section {
+      margin: 0;
+   }
+   
+   .product-section .seeAll {
+      font-size: .875rem;
+   }
+}

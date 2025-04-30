@@ -12,7 +12,8 @@ body {
 
 header,
 section,
-footer {
+footer,
+.wrapper {
    padding: 24px 152px;
 }
 
@@ -25,7 +26,8 @@ button {
 @media screen and (max-width: 900px) {
    header,
    section,
-   footer {
+   footer,
+   .wrapper {
       padding: 16px 32px;
    }
 }
@@ -33,7 +35,8 @@ button {
 @media screen and (max-width: 425px) {
    header,
    section,
-   footer {
+   footer,
+   .wrapper {
       padding: 16px;
    }
 }
