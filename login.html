@@ -12,6 +12,7 @@
    <link rel="stylesheet" href="./css/components/app-button.css">
    <link rel="stylesheet" href="./css/components/app-header.css">
    <link rel="stylesheet" href="./css/components/app-footer.css">
+   <link rel="stylesheet" href="./css/components/app-form.css">
    <link rel="stylesheet" href="./css/login.css">
 </head>
 <body>
@@ -22,9 +23,15 @@
 
    <main class="wrapper">
       <h2 class="app-title">Iniciar Sessão</h2>
-      <form class="form-login">
-         <input  class="input" placeholder="Digite seu email" type="email">
-         <input  class="input" placeholder="Digite sua senha" type="password">
+      <form class="app-form">
+         <div class="input-container">
+            <input  class="input" id="email" type="email" required>
+            <label class="label" for="email">Digite seu email</label>
+         </div>
+         <div class="input-container">
+            <input  class="input" id="password" type="password" required>
+            <label class="label" for="password">Digite sua senha</label>
+         </div>
          <button class="app-button">Entrar</button>
       </form>
    </main>
@@ -44,9 +51,15 @@
          </div>
          <div class="form" action="">
             <span class="title">Fale conosco</span>
-            <form action="">
-               <input class="input" type="text" placeholder="Nome">
-               <textarea class="input" placeholder="Mensagem" rows="3"></textarea>
+            <form class="app-form" action="">
+               <div class="input-container">
+                  <input class="input" type="text" id="name" required>
+                  <label for="name" class="label">Nome</label>
+               </div>
+               <div class="input-container">
+                  <textarea class="input" id="message" rows="3" required></textarea>
+                  <label for="message" class="label">Mensagem</label>
+               </div>
             </form>
             <button class="app-button">Enviar mensagem</button>
          </div>
