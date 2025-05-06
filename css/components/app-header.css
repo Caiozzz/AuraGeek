@@ -38,12 +38,14 @@
    }
 }
 
+@media screen and (max-width: 768px) {
+   .app-header > .app-button {
+      min-width: fit-content;
+   }
+}
+
 @media screen and (max-width: 600px) {
    .app-header > .input {
       display: none;
-   }
-
-   .app-header > .app-button {
-      min-width: fit-content;
    }
 }
