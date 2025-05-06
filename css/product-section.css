@@ -36,6 +36,11 @@
    .product-section .title {
       font-size: 1.375rem;
    }
+
+   .product-section .product-list {
+      flex-wrap: nowrap;
+      overflow-x: scroll;
+   }
 }
 
 @media screen and (max-width: 425px) {

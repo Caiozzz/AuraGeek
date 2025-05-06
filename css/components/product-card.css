@@ -14,13 +14,18 @@
    font-weight: 700;
 }
 
+.product-card > .link {
+   color: var(--primary-color);
+   font-weight: 700;
+}
+
 @media screen and (max-width: 900px) {
    .product-card {
       width: calc(25% - 12px);
    }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 430px) {
    .product-card {
       width: calc(50% - 8px);
    }

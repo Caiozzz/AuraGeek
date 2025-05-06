@@ -3,10 +3,3 @@
    flex-wrap: wrap;
    gap: 16px;
 }
-
-@media screen and (max-width: 900px) {
-   .product-list {
-      flex-wrap: nowrap;
-      overflow-x: scroll;
-   }
-}
