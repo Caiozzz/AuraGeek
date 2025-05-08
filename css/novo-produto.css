@@ -1,0 +1,19 @@
+main > .content {
+   width: 560px;
+   margin: 40px auto;
+}
+
+main  h2 {
+   font-size: 2rem;
+   margin-bottom: 16px;
+}
+
+@media screen and (max-width: 900px) {
+   main > .content {
+      width: 100%;
+   }
+
+   main  h2 {
+      font-size: 1.375rem;
+   }
+}
